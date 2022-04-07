@@ -1,0 +1,654 @@
+    1  clear
+    2  cd
+    3  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+    4  nano .zshrc
+    5  source .zshrc
+    6  clear
+    7  passwd root
+    8  sudo su
+    9  ls
+   10  clear
+   11  pwd
+   12  whoami
+   13  clear
+   14  apt-cache search firefox
+   15  clear
+   16  myip 
+   17  clear
+   18  myip 
+   19  nano .zshrc
+   20  clear
+   21  source ~/.zshrc
+   22  nano .zshrc
+   23  source ~/.zshrc
+   24  clear
+   25  nano .zshrc
+   26  clear
+   27  source ~/.zshrc
+   28  clear
+   29  motd
+   30  clear
+   31  ls
+   32  clear
+   33  whoami
+   34  su mouhcine
+   35  ls
+   36  clear
+   37  whoami
+   38  clear
+   39  su root
+   40  clear
+   41  systemctl get-default
+   42  l
+   43  clear
+   44  apt update
+   45  sudo apt update
+   46  clear
+   47  sudo apt install chrony
+   48  chrony --version
+   49  clear
+   50  sudo apt install chrony
+   51  clear
+   52  man chrony
+   53  clear
+   54  vi 
+   55  clear
+   56  nano /etc/chrony/chrony.conf
+   57  sudo nano /etc/chrony/chrony.conf
+   58  sudo vim /etc/chrony/chrony.conf
+   59  sudo nano /etc/chrony/chrony.conf
+   60  clear
+   61  sudo apt install net-tools
+   62  clear
+   63  ipconfig
+   64  ifconf
+   65  ifconfig
+   66  whoami
+   67  clear
+   68  sudo nano /etc/chrony/chrony.conf
+   69  clear
+   70  systemctl enable chrony
+   71  systemctl start chrony
+   72  clear
+   73  systemctl status chrony
+   74  timedatectl set-ntp false
+   75  chrony sources
+   76  chronyc sources
+   77  clear
+   78  history 
+   79  history | grep sudo nano /etc/chrony/chrony.conf\n
+   80  history | grep sudo\n
+   81  clear
+   82  sudo nano /etc/chrony/chrony.conf\n
+   83  clear
+   84  ifconfig
+   85  cat ifconfig > Addressip-ubuntu.txt
+   86  ifconfig > Addressip-ubuntu.txt
+   87  ls
+   88  nano Addressip-ubuntu.txt
+   89  clear
+   90  chronyc sources
+   91  ls -als /var/run/chrony/chronyd.sock
+   92  sudo ls -als /var/run/chrony/chronyd.sock
+   93  sudo chronyc sources
+   94  sudo su
+   95  clear
+   96  ls
+   97  history
+   98  clear
+   99  ls
+  100  nano Addressip-ubuntu.txt
+  101  clear
+  102  c;ear
+  103  clear
+  104  history
+  105  clear
+  106  ls
+  107  sudo chronyc sources
+  108  timedatectl set-ntp true
+  109  history| grep timesyncd
+  110  history| grep timesync
+  111  history| grep times
+  112  history| grep time
+  113  history | grep nano
+  114  whoami
+  115  ls
+  116  clear
+  117  sudo nano /etc/chrony/chrony.conf\n
+  118  cat /etc/os-release
+  119  su root
+  120  history 
+  121  history
+  122  clear
+  123  chronyc sources
+  124  clear
+  125  history
+  126  sudo nano /etc/chrony/chrony.conf\n
+  127  clear
+  128  cat /etc/os-release
+  129  whoami
+  130  su root
+  131  clear
+  132  cd /etc
+  133  ls -l
+  134  ls
+  135  cd ..
+  136  ls
+  137  cat /etc/apt/sources.list
+  138  clear
+  139  nano /etc/apt/sources.list
+  140  clear
+  141  ls
+  142  cd ..
+  143  cd
+  144  ls
+  145  clear
+  146  slapd -v
+  147  slapd -V
+  148  clear
+  149  dpkg-reconfigure slapd 
+  150  whoami
+  151  su root
+  152  history| grep inet
+  153  history | grep inet
+  154  clear
+  155  history| grep inet
+  156  ip a | grep inet
+  157  whoami 
+  158  clear
+  159  whoami 
+  160  su root
+  161  whoami
+  162  clear
+  163  dirb
+  164  ip a | grep inet
+  165  ls
+  166  clear
+  167  cd /usr/share/
+  168  ls
+  169  clear
+  170  cd
+  171  ls
+  172  p10k
+  173  p10k configure
+  174  clear
+  175  ls
+  176  pwd
+  177  clear
+  178  whoami
+  179  clear
+  180  cd /var/www/html
+  181  ls
+  182  clear
+  183  cd
+  184  ls
+  185  clear
+  186  apt-cache search lamp
+  187  clear
+  188  ls
+  189  nano ldif.format
+  190  clear
+  191  ls
+  192  clear
+  193  mkdir association && cd association
+  194  ls
+  195  clear
+  196  touch ldif.format
+  197  clear
+  198  nano ldif.format
+  199  clear
+  200  nano ldif.format
+  201  ls
+  202  history 
+  203  history
+  204  ls
+  205  clear
+  206  cat ldif.format
+  207  clear
+  208  cat ldif.format
+  209  nano ldif.format
+  210  mv ldif.format exercice.format
+  211  ls
+  212  clear
+  213  nano exercice.format
+  214  clear
+  215  pwd
+  216  ls
+  217  cd
+  218  ls
+  219  cd Desktop
+  220  ls
+  221  cd ..
+  222  clear
+  223  nano 
+  224  ls
+  225  history | grep "ldap "
+  226  history | grep ldap
+  227  clear
+  228  history
+  229  clear
+  230  ldapsearch-Q-Y EXTERNAL-H ldapi: //-b dc=ynov, dc=com
+  231  ldap 
+  232  ldapsearch -Q -Y EXTERNAL-H ldapi: //-b dc=ynov, dc=com
+  233  systemctl ldap
+  234  systemctl start sldap
+  235  systemctl start ldap
+  236  clear
+  237  systemctl start sladp
+  238  systemctl start slapd
+  239  clear
+  240  ldapsearch -Q -Y EXTERNAL-H ldapi: //-b dc=ynov, dc=com
+  241  systemctl start slapd
+  242  clear
+  243  ldapsearch -Q -Y EXTERNAL-H ldapi: //-b dc=ynov, dc=com
+  244  systemctl start slapd
+  245  systemctl enable slapd
+  246  clear
+  247  systemctl status slapd
+  248  clear
+  249  ldapsearch -Q -Y EXTERNAL-H ldapi: //-b dc=ynov, dc=com
+  250  ldapsearch -Q -Y EXTERNAL-H ldapi: // -b dc=ynov, dc=com
+  251  ldapsearch -Q -L -Y EXTERNAL-H ldapi: // -b dc=ynov, dc=com
+  252  clear
+  253  ldapsearch -Q -L -Y EXTERNAL-H ldapi: // -b dc=ynov, dc=com
+  254  ldapwhoami
+  255  clear
+  256  ldapsearch -Q -L -Y EXTERNAL-H ldapi: /// -b dc=ynov, dc=com
+  257  ldapsearch -Q -L -Y EXTERNAL-H ldapi:/// -b dc=ynov, dc=com
+  258  ldapsearch -Q -L -Y EXTERNAL-H ldapi:// -b dc=ynov, dc=com
+  259  ldapsearch -Q -LLL -Y EXTERNAL-H ldapi:// -b dc=ynov, dc=com
+  260  ldapsearch -Q -LLL -Y EXTERNAL -H ldapi:// -b dc=ynov, dc=com
+  261  clear
+  262  ldapsearch -Q -LLL -Y EXTERNAL -H ldapi://
+  263  slapd
+  264  dpkg-reconfigure slapd
+  265  clear
+  266  su root
+  267  clear
+  268  ls
+  269  clea
+  270  clear
+  271  ls
+  272  clear
+  273  cd /etc/apache2
+  274  ls
+  275  cd sites-available
+  276  ls
+  277  nano 000-default.conf
+  278  cd ..
+  279  nano apache2.conf
+  280  ls -lah
+  281  nano apache2.conf
+  282  clear
+  283  whoami 
+  284  su root
+  285  ls
+  286  cd sites-available
+  287  ls
+  288  nano 000-default.conf
+  289  ls
+  290  nano sites1.com
+  291  clear
+  292  ls
+  293  whoami 
+  294  su root
+  295  clear
+  296  ls
+  297  whoami
+  298  su root
+  299  ls
+  300  clear
+  301  su root
+  302  clear
+  303  ls
+  304  whoami
+  305  clear
+  306  su root 
+  307  clear
+  308  ls
+  309  whoami 
+  310  clear
+  311  su root
+  312  sudo apt install letsencrypt
+  313  clear
+  314  su root 
+  315  apt-cache search mysql
+  316  apt-get install default-mysql-server
+  317  su root
+  318  clear
+  319  whoami 
+  320  clear
+  321  sudo systemctl start mysql
+  322  sudo nano /etc/mysql/mysql.conf.d/mysql.cnf
+  323  clear
+  324  ls -a /var/run/mysqld
+  325  sudo chown -R _mysql:mysql /usr/local/var/mysql\n
+  326  clear
+  327  sudo apt remove --purge mysql-server.
+  328  sudo apt remove --purge mysql-server
+  329  sudo apt purge mysql-server
+  330  sudo apt autoremove
+  331  sudo apt autoclean
+  332  sudo apt remove dbconfig-mysql
+  333  clear
+  334  ls
+  335  mysql --version
+  336  sudo apt remove --purge mysql-server
+  337  clear
+  338  sudo apt purge mysql-server
+  339  sudo apt autoremove
+  340  sudo apt autoclean
+  341  sudo apt remove dbconfig-mysql
+  342  clear
+  343  mysql --version
+  344  clear
+  345  mysql -v
+  346  sudo mysql -u root
+  347  /usr/local/mysql/bin/mysql start
+  348  clear
+  349  ls /usr/local
+  350  su root 
+  351  ls
+  352  cd ..
+  353  ls
+  354  la 
+  355  su root 
+  356  ls
+  357  mv wordpress /var/www/html
+  358  sudo mv wordpress /var/www/html
+  359  sudo mv -r wordpress /var/www/html
+  360  sudo mv  wordpress /var/www/html/
+  361  ls/
+  362  cd ..
+  363  ls
+  364  mv wordpress-5.9.2 /var/www/html
+  365  sudo mv wordpress-5.9.2 /var/www/html
+  366  ls
+  367  sudo mv wordpress /var/www/html
+  368  ls
+  369  su root
+  370  clear
+  371  pwd
+  372  su root 
+  373  clear
+  374  ls
+  375  clear
+  376  whoami 
+  377  su root && cd /var/www/html
+  378  clear
+  379  mysql 
+  380  su root 
+  381  clear
+  382  cat ~/.mysql_history
+  383  su root 
+  384  curl localhost:80
+  385  ping localhost:80
+  386  wget localhost:80
+  387  clear
+  388  open localhost
+  389  localhost
+  390  clear
+  391  cd ~/.config/nvim
+  392  cd /.config/nvim
+  393  clear
+  394  ls
+  395  cllear
+  396  su root 
+  397  clear
+  398  man trash 
+  399  apt-cache search trash 
+  400  clear
+  401  ls
+  402  clear
+  403  ls
+  404  su root 
+  405  clear
+  406  su root 
+  407  clear
+  408  ls
+  409  clear
+  410  su root
+  411  ls
+  412  clear
+  413  ls
+  414  apt install gem 
+  415  su root 
+  416  clear
+  417  su root 
+  418  ls
+  419  clear
+  420  ls
+  421  cd
+  422  ls
+  423  cd Desktop
+  424  ls]
+  425  ls
+  426  vim 
+  427  nvim 
+  428  clear
+  429  ls
+  430  clear
+  431  cd
+  432  clear
+  433  cd Documents/Github
+  434  clear
+  435  git clone https://github.com/ryanoasis/nerd-fonts.git
+  436  sudo git clone https://github.com/ryanoasis/nerd-fonts.git
+  437  clear
+  438  ls
+  439  cd 
+  440  cd Downloads
+  441  ls
+  442  clear
+  443  ls
+  444  git status
+  445  clear
+  446  nvim ~/.zshrc
+  447  exec zsh 
+  448  ls
+  449  ls -lah 
+  450  clear
+  451  mysql --version 
+  452  clear
+  453  ls
+  454  su root 
+  455  clear
+  456  ls
+  457  su root 
+  458  lsd
+  459  clear
+  460  lsd
+  461  ls
+  462  ls -a
+  463  lsd -a
+  464  lsd -l
+  465  whoami
+  466  clear
+  467  curl 'https://raw.githubusercontent.com/jakbin/myzsh/main/termux/install.sh' | sh
+  468  wget 'https://raw.githubusercontent.com/jakbin/myzsh/main/termux/plugin-install.sh' && bash plugin-install.sh
+  469  clear
+  470  lsd
+  471  clear
+  472  lsd
+  473  tmux 
+  474  clear
+  475  clear
+  476  ls
+  477  colorls 
+  478  clear
+  479  fonts 
+  480  clear
+  481  ls
+  482  colorl
+  483  colorls
+  484  clear
+  485  l
+  486  ls
+  487  nvim 
+  488  nvim ~/.zshrc
+  489  source ~/.zshrc
+  490  clear
+  491  lsc
+  492  lc
+  493  colorls
+  494  nvim ~/.zshrc
+  495  source ~/.zshrc
+  496  clear
+  497  kjhbvhjvhvhvhdviofugheqouagehqbfhjkvbqejhvbjhkqevuhvaeu
+  498  clear
+  499  colorls
+  500  clear
+  501  nvim ~/.zshrc
+  502  ls
+  503  history 
+  504  clear
+  505  lc
+  506  colorls
+  507  clear
+  508  ls
+  509  ls
+  510  lsd
+  511  ls -a
+  512  clear
+  513  la
+  514  lt
+  515  la
+  516  clear
+  517  lsa
+  518  ls -a
+  519  clear
+  520  lh
+  521  ll
+  522  clear
+  523  ls
+  524  clear
+  525  ls
+  526  clear
+  527  sudo apt-get install tmux
+  528  clear
+  529  tmux
+  530  colorls
+  531  clear
+  532  history | php-mysql 
+  533  history | grep php-mysql 
+  534  su root
+  535  ls
+  536  clear
+  537  colorls
+  538  clear
+  539  clear
+  540  ls
+  541  nvim]
+  542  nvim
+  543  git clone https://github.com/kabinspace/AstroVim ~/.config/nvim
+  544  clear
+  545  nvim +PackerSync
+  546  nvim 
+  547  clear
+  548  clea
+  549  clear
+  550  ls
+  551  clear
+  552  ks
+  553  ls
+  554  clear
+  555  systemctl status jenkins 
+  556  sudo  rm -rf /root/.jenkins/
+  557  cd $CATALINA_HOME/bin 
+  558  clear
+  559  ls
+  560  rm -rf jenkins.war jenkins
+  561  clear
+  562  systemctl status jenkins 
+  563  clear
+  564  snap install jenkins 
+  565  sudo snap install jenkins 
+  566  rm -rf /root/.jenkins/
+  567  sudo rm -rf /root/.jenkins/
+  568  clear
+  569  systemctl status jenkins 
+  570  clear
+  571  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+  572  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  573  sudo apt update
+  574  sudo apt install jenkins 
+  575  clear
+  576  jenkins 
+  577  clear
+  578  systemctl stop tomcat9.service
+  579  ls /etc/tomcat9/tomcat-users.xml
+  580  nvim /etc/tomcat9/tomcat-users.xml
+  581  cat /etc/tomcat9/tomcat-users.xml
+  582  sudo nvim /etc/tomcat9/tomcat-users.xml
+  583  clear
+  584  sudo nvim /etc/tomcat9/tomcat-users.xml
+  585  clear
+  586  ls
+  587  cd /etc/tomcat9
+  588  cd Catalina
+  589  ls
+  590  cd localhost
+  591  sudo cd localhost
+  592  ls
+  593  cd localhost
+  594  ls
+  595  clear
+  596  su roo t
+  597  su root 
+  598  clear
+  599  slapcat -n 0 -l config.ldif
+  600  sudo slapcat -n 0 -l config.ldif
+  601  ls
+  602  find / | grep config.ldif
+  603  sudo find / | grep config.ldif
+  604  clear
+  605  ls
+  606  clear
+  607  ls
+  608  clear
+  609  ls
+  610  nvim config.ldif
+  611  ls
+  612  clear
+  613  ls
+  614  clear
+  615  ls
+  616  clear
+  617  cd Desktop
+  618  ls
+  619  clear
+  620  mkdir ldapbackup
+  621  cd ldapbackup
+  622  git remote add origin https://github.com/Crushoverride007/ldapbackup.git
+  623  git init 
+  624  git commit -m "first commit"
+  625  git add .
+  626  git commit -m "first commit"
+  627  clear
+  628  git add README.md
+  629  touch README.md
+  630  git add README.md
+  631  git commit -m "first commit"
+  632  git config --global user.email "mouhcine.mesmouki7@gmail.com"
+  633  git config --global user.name "Mouhcine MESMOUKI"
+  634  git commit -m "first commit"
+  635  git remote add origin https://github.com/Crushoverride007/ldapbackup.git
+  636  git push -u origin main
+  637  git push 
+  638  git push --set-upstream origin master
+  639  clear
+  640  ls
+  641  clear
+  642  cd ..
+  643  ls
+  644  cd ..
+  645  ls
+  646  mv config.ldif Desktop/ldapbackup/
+  647  cd Desktop/ldapbackup
+  648  git add config.ldif
+  649  git commit -m "added the backup"
+  650  git push 
+  651  clear
+  652  ls
+  653  clear
+  654  ls
